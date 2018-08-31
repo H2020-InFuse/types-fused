@@ -6,12 +6,12 @@
 cmake_minimum_required(VERSION 3.3)
 # required version 3.3: provides "IN_LIST" operator in if()
 
-project(base_support)
+project(fused)
 
 include($ENV{ESROCOS_CMAKE})
 
 esrocos_init()
 
-add_subdirectory(src)
+add_subdirectory(asn)
 
 
